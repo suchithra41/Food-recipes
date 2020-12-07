@@ -1,0 +1,43 @@
+#userEdit {
+	width: fit-content;
+	margin: auto;
+}
+
+#userEdit label {
+	display: block;
+	font-size: 1.1rem;
+	text-transform: capitalize;
+}
+
+#userEdit input {
+	padding: 8px;
+	width: 300px;
+	margin: 5px 0px 15px;
+	background-color: gainsboro;
+	border: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+#userEdit input:focus {
+	outline: none;
+}
+
+#userEdit textarea {
+	width: 300px;
+	height: 130px;
+	background-color: gainsboro;
+	border: none;
+}
+
+#userEdit textarea:focus {
+	outline: none;
+}
+
+#userEdit .submit {
+	border: none;
+	padding: 5px 15px;
+	font-size: 1.2rem;
+	background-color: black;
+	color: white;
+	border-radius: 2px;
+}

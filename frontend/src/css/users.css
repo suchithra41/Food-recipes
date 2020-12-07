@@ -1,0 +1,56 @@
+/*Posts (Admin) */
+
+#usersAdmin {
+	margin: auto;
+	text-align: center;
+	min-height: 60vh;
+	width: fit-content;
+}
+
+#usersAdmin .title {
+	font-size: 1.3rem;
+	margin-top: 20px;
+}
+
+#usersAdmin table {
+	margin: 20px auto;
+	border-collapse: collapse;
+}
+
+#usersAdmin table thead tr td {
+	padding: 5px 10px;
+	background-color: white;
+}
+
+#usersAdmin td {
+	border: 1px solid gainsboro;
+	width: fit-content;
+}
+
+#usersAdmin table tbody tr td {
+	padding: 5px 15px;
+	background-color: rgb(243, 243, 243);
+}
+
+#usersAdmin .icon {
+	padding: 5px;
+	background-color: white;
+	color: tomato;
+	cursor: pointer;
+}
+
+#usersAdmin .fa-edit {
+	color: black;
+}
+
+#usersAdmin .newPost {
+	border: none;
+	padding: 5px 10px;
+	font-size: 1.2rem;
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: 200px;
+	top: 100px;
+	cursor: pointer;
+}
